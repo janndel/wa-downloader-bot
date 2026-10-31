@@ -7,7 +7,7 @@ Usa vinculación por **código de 8 dígitos** (sin QR). En el primer arranque t
 ## Inicio rápido
 
 ```bash
-git clone https://github.com/TU_USUARIO/wa-downloader-bot.git
+git clone https://github.com/janndel/wa-downloader-bot.git
 cd wa-downloader-bot
 npm start
 ```
@@ -39,7 +39,7 @@ El código vence en 1–2 minutos. Si expira, ejecuta `npm run code` para pedir 
 ```bash
 pkg update -y
 pkg install -y nodejs git
-git clone https://github.com/TU_USUARIO/wa-downloader-bot.git
+git clone https://github.com/janndel/wa-downloader-bot.git
 cd wa-downloader-bot
 npm start
 ```
@@ -63,7 +63,7 @@ sudo pacman -S --noconfirm nodejs npm git
 Luego:
 
 ```bash
-git clone https://github.com/TU_USUARIO/wa-downloader-bot.git
+git clone https://github.com/janndel/wa-downloader-bot.git
 cd wa-downloader-bot
 npm start
 ```
