@@ -1,0 +1,13 @@
+node_modules/
+auth/
+downloads/
+*.log
+.bot.lock
+pairing-code.txt
+media-cache.bin
+bin/
+cookies.txt
+config.json
+.env
+.env.*
+!.env.example

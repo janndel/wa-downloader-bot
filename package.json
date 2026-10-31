@@ -1,0 +1,28 @@
+{
+  "name": "wa-downloader-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp: previsualiza y descarga videos, fotos y GIF de Facebook, Instagram, X/Twitter con codigo de vinculacion (sin QR)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/launch.js",
+    "start:fg": "node index.js",
+    "setup": "node scripts/launch.js setup",
+    "stop": "node scripts/launch.js stop",
+    "status": "node scripts/launch.js status",
+    "code": "node scripts/launch.js code",
+    "logs": "node scripts/launch.js logs",
+    "test": "node --check index.js && node --check scripts/launch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "node-webpmux": "^3.2.1",
+    "pino": "^10.4.0"
+  }
+}
